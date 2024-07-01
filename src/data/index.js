@@ -82,7 +82,7 @@ const data = {
             title:'US 2020 Election',
             shortDescription:'Analyzed Twitter Tweets based on voter sentiments to predict the 2020 US Election Results.',
             GitHubLink:'https://github.com/SaurabhKumbhar24/Sentiment-Analysis-on-2020-US-Election',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['Python','TensorFlow','Keras','NLTK','Jupyter Notebook'],
             img:Election
 
         },
