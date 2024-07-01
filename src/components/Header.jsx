@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Box, Grid, Button, Avatar } from '@mui/material';
-import Logo from '../assets/logo.png';
+import data from "../data";
 
 
 function Header(){
@@ -8,15 +8,13 @@ function Header(){
         <AppBar elevation={0} position="static" style={{background:'transparent',padding:5}}>
             <Toolbar variant="dense" style={{display:'flex',justifyContent:'space-between'}}>
                 <Box style={{display:'flex'}}>                
-                    <Box style={{display:'flex'}}>
-                        <Avatar src={Logo}/> 
-                    </Box>
+                    <Avatar variant="rounded" style={{color:'white',background:data.colors.primary}}>SK</Avatar>
                 </Box>
                 <Box>
                     <Grid container>
-                        <Grid item> <Button href="/" style={{color:'#7FD858'}}>HOME</Button> </Grid>
-                        <Grid item> <Button href="/projects" style={{color:'#7FD858'}}>PROJECTS</Button> </Grid>
-                        <Grid item> <Button href="/contact" style={{color:'#7FD858'}}>CONTACT</Button> </Grid>
+                        <Grid item> <Button href="/" style={{color:data.colors.primary}}>HOME</Button> </Grid>
+                        <Grid item> <Button href="/projects" style={{color:data.colors.primary}}>PROJECTS</Button> </Grid>
+                        <Grid item> <Button href="/contact" style={{color:data.colors.primary}}>CONTACT</Button> </Grid>
                     </Grid>
                 </Box>
             </Toolbar>

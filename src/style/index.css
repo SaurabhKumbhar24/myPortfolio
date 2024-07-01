@@ -1,3 +1,12 @@
+:root{
+  /* --primary:#7FD858; */
+  /* --secondary:#0C4444; */
+  /* --nameColor:#FFF; */
+  --primary:#000;
+  --secondary:#FFF;
+  --nameColor:#000;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -5,10 +14,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-attachment: fixed;
   background-image: linear-gradient(to top left,#2E3192,#1BFFFF); */
-  background: #0C4444;
+  background: var(--secondary);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.myName{
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title{
+  font-weight: 900;
+  font-style: normal;
+  text-transform: none;
+  color: var(--primary);
+}
+
+.projectsBtn{
+
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 12px;
+  padding-left:15px;
+  padding-right:15px;
+  color:var(--primary);
+  background: transparent;
+  font-size: medium;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projectsBtn:hover{
+
+  background: var(--primary);
+  color:var(--secondary);
+}
+
+.BasicInfo{
+  width: 50%;
+  margin:10px;
+  margin-left:0px;
+  color:var(--nameColor);
+  opacity:0.5; 
+  text-align:justify;
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 768px) {
+
+  .BasicInfo{
+      width: 100%;
+  }
+
+  .noMob{
+      display: none;
+  }
 }
