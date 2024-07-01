@@ -15,8 +15,6 @@ const data = {
         github:'https://www.github.com/SaurabhKumbhar24'
     },
     colors:{
-        // primary:"#7FD858",
-        // nameColor:"#FFF"
         primary:"#000",
         nameColor:"grey",
     },
@@ -27,29 +25,29 @@ const data = {
                 "Python","R","SQL","Tableau",
                 "TensorFlow","Keras","PyTorch",
                 "SciKit-Learn","Matplotlib","Seaborn",
-                "Docker","GitHub"
+                "Docker","GitHub","OpenCV"
             ]
         },
         {
             cat:'Web',
             skills:[
                 "HTML","CSS","JavaScript",
-                "Java","MongoDB","AWS",
-                "GCP","Google Analytics",
+                "Java","C/C++","MongoDB",
+                "AWS", "GCP","Google Analytics",
                 "DynamoDB","FireBase","Android Studio",
                 "ReactJS","NodeJS","ExpressJS","Raspberry Pi",
-                "Arduino", "C/C++"
+                "Rest Api"
             ]
         },
         {
             cat:'Pub',
-            skills:["Python","TensorFlow","Keras","Jupyter Notebook"]
+            skills:["Python","TensorFlow","Keras","OpenCV","Jupyter Notebook"]
         }
     ],
     Categories:[
         {
             id:'AI',
-            name:'AI | Machine Learning | Deep Learning'
+            name:'Machine Learning | Deep Learning | Computer Vision'
         },
         {
             id:'Web',
@@ -65,7 +63,7 @@ const data = {
             id:0,
             category:'Pub',
             title:'Indian Sign Language Recognition System, International Journal of Innovative Science and Research Technology (IJISRT) Volume 6 – 2021, Issue 6 – June',
-            shortDescription:'Designed a system to recognize Sign Language using Convolutional Neural Network (CNN)',
+            shortDescription:'Designed a system to recognize Sign Language (realtime hand gestures) using Computer Vision and Convolutional Neural Network (CNN)',
             GitHubLink:'https://ijisrt.com/indian-sign-language-recognition-system',
             skills:['Python','TensorFlow','Keras']
         },
@@ -73,7 +71,7 @@ const data = {
             id:1,
             category:'AI',
             title:'AyurGPT',
-            shortDescription:'LLM ChatBot on Ayurvedic healthcare solutions',
+            shortDescription:'Large Language Model (LLM) chatbot utilizing the ChatGPT API to provide personalized Ayurvedic healthcare recommendations',
             GitHubLink:'https://github.com/SaurabhKumbhar24/AyurGPT',
             skills:['Python','TensorFlow','ChatGPT Api','ReactJS'],
             img:AyurGPT,
@@ -82,7 +80,7 @@ const data = {
             id:2,
             category:'AI',
             title:'US 2020 Election',
-            shortDescription:'Analyzed Twitter Tweets to get the election results',
+            shortDescription:'Analyzed Twitter Tweets based on voter sentiments to predict the 2020 US Election Results.',
             GitHubLink:'https://github.com/SaurabhKumbhar24/Sentiment-Analysis-on-2020-US-Election',
             skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
             img:Election
@@ -92,7 +90,7 @@ const data = {
             id:3,
             category:'AI',
             title:'Social Distancing',
-            shortDescription:'Visualize the social distance between pedestrian',
+            shortDescription:'Visualize the social distance between pedestrian using Computer Vision and Transfer Learning',
             GitHubLink:'https://github.com/SaurabhKumbhar24/Social-Distancing',
             skills:['Python','TensorFlow','Jupyter Notebook','OpenCV'],
             img:SDist
@@ -102,9 +100,9 @@ const data = {
             id:4,
             category:'AI',
             title:'Cricket Test Series',
-            shortDescription:'Analyzed Cricket Team Data to predict the winning probability',
+            shortDescription:'Analyzed Cricket Team Data to predict the winning probability using Linear and Logistic Regression.',
             GitHubLink:'https://github.com/SaurabhKumbhar24/Data-Analysis-Cricket-Test-Series-',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['Python','SciKit-Learn','Jupyter Notebook'],
             img:Cric
 
         },
@@ -112,9 +110,9 @@ const data = {
             id:5,
             category:'Web',
             title:'ARCA: Room Area Calculator',
-            shortDescription:'Calculate Area of Room and showcase the area on Android App',
+            shortDescription:'Developed an IoT Device used to Calculate Area of Room and showcase the area on Android App',
             GitHubLink:'https://github.com/SaurabhKumbhar24/ARCA',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['Java','Python','Tensorflow','Keras','Firebase'],
             img:arca
 
         },
@@ -122,27 +120,27 @@ const data = {
             id:6,
             category:'Web',
             title:'ProWash: Washing Center App',
-            shortDescription:'Laundry delivery App that connects the Washing Centers',
+            shortDescription:'Laundry delivery App that connects the Washing Centers with the consumers.',
             GitHubLink:'https://github.com/SaurabhKumbhar24/ProWash',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['Java','Android Studio','XML','MySQL'],
             img:prowash
         },
         {
             id:7,
             category:'Web',
             title:'Motleyscape',
-            shortDescription:'Website to showcase the AR, VR and 3D projects on Web',
+            shortDescription:'Website that showcases the WebAR, WebVR and Web3D projects',
             GitHubLink:'https://github.com/SaurabhKumbhar24/Motleyscape-3D',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['HTML','JavaScript','8th Wall','ThreeJs','AWS'],
             img:mscape
         },
         {
             id:8,
             category:'Web',
             title:'Serve My Table',
-            shortDescription:'Web application to collect order and manage payments',
+            shortDescription:'Web application to collect order, manage payments and restaurant on QR Code.',
             GitHubLink:'https://github.com/SaurabhKumbhar24/ServeMyTable',
-            skills:['Python','TensorFlow','Keras','Jupyter Notebook'],
+            skills:['HTML','CSS','JavaScript','ReactJs','GCP','REST API'],
             img:smt
         },
     ]

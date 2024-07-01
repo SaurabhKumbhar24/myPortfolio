@@ -8,7 +8,7 @@ function Header(){
         <AppBar elevation={0} position="static" style={{background:'transparent',padding:5}}>
             <Toolbar variant="dense" style={{display:'flex',justifyContent:'space-between'}}>
                 <Box style={{display:'flex'}}>                
-                    <Avatar variant="rounded" style={{color:'white',background:data.colors.primary}}>SK</Avatar>
+                    <a style={{textDecoration:'none',textTransform:'none'}} href="/"><Avatar variant="rounded" style={{color:'white',background:data.colors.primary}}>SK</Avatar></a>
                 </Box>
                 <Box>
                     <Grid container>

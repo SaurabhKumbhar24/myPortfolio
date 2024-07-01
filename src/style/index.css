@@ -1,7 +1,4 @@
 :root{
-  /* --primary:#7FD858; */
-  /* --secondary:#0C4444; */
-  /* --nameColor:#FFF; */
   --primary:#000;
   --secondary:#FFF;
   --nameColor:#000;
@@ -12,8 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-attachment: fixed;
-  background-image: linear-gradient(to top left,#2E3192,#1BFFFF); */
   background: var(--secondary);
 }
 
