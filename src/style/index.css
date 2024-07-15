@@ -52,12 +52,16 @@ code {
 }
 
 .BasicInfo{
-  width: 50%;
+  width: 80%;
   margin:10px;
   margin-left:0px;
   color:var(--nameColor);
   opacity:0.5; 
   text-align:justify;
+}
+
+.onMob{
+  display: none;
 }
 
 /* Mobile Screen */
@@ -68,6 +72,9 @@ code {
   }
 
   .noMob{
-      display: none;
+    display: none;
+  }
+  .onMob{
+    display: block;
   }
 }

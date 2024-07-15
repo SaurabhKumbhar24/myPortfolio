@@ -3,6 +3,7 @@ import ProjectMapDiv from "../components/ProjectMapDiv";
 import data from "../data";
 import { Box } from "@mui/material";
 import Header from "../components/Header";
+import Footer from '../components/Footer';
 
 function Projects(){
 
@@ -21,6 +22,7 @@ function Projects(){
                 </div>
             </Box>
             </div>
+            <Footer/>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import { Box, Typography } from "@mui/material";
 import { GitHub, LinkedIn, Email } from '@mui/icons-material';
-
+import Footer from '../components/Footer';
 import data from "../data";
 
 function Contact(){
@@ -28,7 +28,9 @@ function Contact(){
                 </div>
                 </div>
             </Box>
-
+            <div style={{position:'absolute',bottom:0,width:'100%'}}>
+            <Footer/>
+            </div>
         </div>
     );
 }

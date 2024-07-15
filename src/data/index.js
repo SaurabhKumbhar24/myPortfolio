@@ -8,7 +8,7 @@ import mscape from '../assets/mscape.png';
 import smt from '../assets/smt.png';
 
 const data = {
-    BasicInfo:"I'm pursuing my Masters in Analytics field and I have completed my Bachelors in Computer Science and Engineering. I have 3+ years of experience in tech industry. I have worked as a Machine Learning Engineer and Data Scientist. I'm looking for job opportunities in the field of Data Science.",
+    BasicInfo:"I'm pursuing my Masters in Business Analytics and I have completed my Bachelors in Computer Science and Engineering. I have 3+ years of experience in tech industry. I have worked as a Software Engineer. I'm looking for job opportunities in the field of <strong>Full Stack Developer</strong> or <strong>Data Science</strong>.",
     Contact:{
         mail:'saurabh.kumbhar24@outlook.com',
         linkedin:'https://www.linkedin.com/in/saurabhkumbhar',
@@ -32,11 +32,11 @@ const data = {
             cat:'Web',
             skills:[
                 "HTML","CSS","JavaScript",
-                "Java","C/C++","MongoDB",
-                "AWS", "GCP","Google Analytics",
-                "DynamoDB","FireBase","Android Studio",
-                "ReactJS","NodeJS","ExpressJS","Raspberry Pi",
-                "Rest Api"
+                "Python","C/C++","Django","ReactJS",
+                "AWS", "GCP","Google Analytics","Rest Api",
+                "SQL/NoSQL", "PostgreSQL","MySQL","MongoDB",
+                "DynamoDB","FireBase", "NodeJS","ExpressJS",
+                "Raspberry Pi","Android Studio"
             ]
         },
         {
